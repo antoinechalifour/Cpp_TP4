@@ -70,8 +70,8 @@ int main(){
 	}
 	*/
 
-	DynamicTable<int, 3> dt;
-	DynamicTable<int, 3> dt2;
+	DynamicTable<int, 2> dt;
+	DynamicTable<int, 2> dt2;
 	int i=1, j=2, k=3, l=4, m=5;
 
     try{
@@ -100,7 +100,7 @@ int main(){
         cout<<"dt2 > i ="<<dt2.popElement()<<endl<<endl;
 
         cout<<"Creation de dt3 par recopie de dt..."<<endl;
-        DynamicTable<int, 3> dt3=dt;
+        DynamicTable<int, 2> dt3=dt;
 
         cout<<"Affichage de dt..."<<endl;
         cout<<"dt  > i ="<<dt[0]<<endl;
